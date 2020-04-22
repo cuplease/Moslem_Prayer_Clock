@@ -9,7 +9,7 @@ In this project i made digital clock which is equipped with moslem prayer remind
   - Power Supply
 
 ### Wiring Diagram
-Here is the wiring diagram between WemosD1 Mini and LED Dot Matrix.
+Here is the wiring diagram between WemosD1 Mini and LED Dot Matrix. <br>
 | Wemos D1 Mini      | LED Dot Matrix |
 | ----------- | ----------- |
 | VCC         | VCC       |
@@ -17,14 +17,17 @@ Here is the wiring diagram between WemosD1 Mini and LED Dot Matrix.
 |D7 (GPIO13)|DIN|
 |D5 (GPIO14)|CLK|
 |D4|CS|
+
 Actually you can change CS connection to any pin available, but for DIN and CLK pins are fixed to D7 and D5, because they need MOSI and SCLK pin from WemosD1 Mini. <br>
 <br>
-Here is the wiring diagram between WemosD1 mini and buzzer
+Here is the wiring diagram between WemosD1 mini and buzzer.<br>
+
 | Wemos D1 Mini      | Buzzer |
 | ----------- | ----------- |
 | VCC         | VCC       |
 | GND         | GND        |
 |D3 (GPIO0)|Data|
+
 You can also connect buzzer to any pin you like other than D3, just make sure to change the code.
 
 ### Reference
